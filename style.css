@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./img/nature-g03d4c4005_1920.jpg);
+    background-size: cover;
+    background-position: cover;
+    height: 100%;
+}
+.container{
+    width: 870px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+.container ul{
+    list-style: none;
+
+    
+}
+.container ul li{
+    background:#da5128;
+    width: 170px;
+    border: 2px solid #fff;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    margin: auto;
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.container ul li:hover{
+    background: rgb(0, 0, 0);
+}
+.container ul ul{
+    display: none;
+}
+.container ul li:hover > ul{
+    display: block;
+}
+.container ul ul ul{
+    margin-left: 170px;
+    top: 0;
+    position: absolute;
+}
+
+
